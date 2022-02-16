@@ -2,7 +2,8 @@
     "manifest_version": 2,
     "name": "gogdl-ng",
     "version": "1.0",
-    "description": "Extension to simplify sending Google Drive folder links to the gogdl-ng service.",
+    "author": "LegendaryB",
+    "description": "Browser extension for sending the current Google Drive folder id to the gogdl-ng backend.",
     "icons": {
         "48": "icons/icon-48.png",
         "96": "icons/icon-96.png"
@@ -10,6 +11,9 @@
     "browser_action": {
         "default_icon": "icons/icon-48.png"
     },
+    "background": {
+        "scripts": ["background.js"]
+      },
     "content_scripts": [
         {
             "matches": [

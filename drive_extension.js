@@ -1,6 +1,4 @@
 (() => {
-    const appServerUrl = 'http://localhost/api/v1/tasks';
-
     const appElementId = 'gogdl';
     const appElementText = 'Send to gogdl-ng';
 
@@ -40,21 +38,20 @@
     }
 
     let onAppElementClicked = () => {
-        debugger;
-
         var folderId = getFolderId()
+        chrome.runtime.sendMessage(folderId);
 
+        /*
         fetch(appServerUrl, {
             method: 'POST',
             headers: {
-                'Accept': 'application/json, text/plain, */*',
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ DriveId: folderId })
         })
         .then(res => res.json())
         .then(res => console.log(res))
-        .catch(err => console.log(err))
+        .catch(err => console.log(err)) */
     }
 
     let getFolderId = () => {
