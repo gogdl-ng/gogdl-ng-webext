@@ -40,18 +40,6 @@
     let onAppElementClicked = () => {
         var folderId = getFolderId()
         chrome.runtime.sendMessage(folderId);
-
-        /*
-        fetch(appServerUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ DriveId: folderId })
-        })
-        .then(res => res.json())
-        .then(res => console.log(res))
-        .catch(err => console.log(err)) */
     }
 
     let getFolderId = () => {
@@ -82,7 +70,6 @@
         setIcon(appElement);
     }
 
-    // did already run, exit
     if (document.getElementById(appElementId)) {
         return;
     }
