@@ -3,14 +3,14 @@
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-[![GitHub license](https://img.shields.io/github/license/LegendaryB/gogdl-ng.svg?longCache=true&style=flat-square)](https://github.com/gogdl-ng/gogdl-ng-webext/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/LegendaryB/gogdl-ng.svg?longCache=true&style=flat-square)](https://github.com/gogdl-ng/gogdl-ng-webext/blob/main/.github/LICENSE)
 
 <sub>Built with ❤︎ by LegendaryB</sub>
 </div><br>
 
 This extension injects a button to the Google Drive WebUI. When clicking on it the current folder id is send to your [gogdl-ng](https://github.com/gogdl-ng/gogdl-ng) instance. It was developed and tested on the latest version of Mozilla Firefox and Chrome.
 
-
+![](https://github.com/gogdl-ng/gogdl-ng-webext/blob/main/.github/assets/extension.png)
 
 ## 📝 Requirements
 * A configured and running instance of [gogdl-ng](https://github.com/gogdl-ng/gogdl-ng).
