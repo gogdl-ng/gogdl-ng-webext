@@ -3,7 +3,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-[![GitHub license](https://img.shields.io/github/license/LegendaryB/gogdl-ng.svg?longCache=true&style=flat-square)](https://github.com/gogdl-ng/gogdl-ng-webext/blob/main/.github/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/LegendaryB/gogdl-ng.svg?longCache=true&style=flat-square)](https://github.com/gogdl-ng/gogdl-ng-webext/blob/main/LICENSE)
 
 <sub>Built with ❤︎ by LegendaryB</sub>
 </div><br>
