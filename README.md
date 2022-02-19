@@ -8,6 +8,10 @@
 <sub>Built with ❤︎ by LegendaryB</sub>
 </div><br>
 
+This extension injects a button to the Google Drive WebUI. When clicking on it the current folder id is send to your [gogdl-ng](https://github.com/gogdl-ng/gogdl-ng) instance. It was developed and tested on the latest version of Mozilla Firefox and Chrome.
+
+
+
 ## 📝 Requirements
 * A configured and running instance of [gogdl-ng](https://github.com/gogdl-ng/gogdl-ng).
 
