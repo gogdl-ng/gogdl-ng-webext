@@ -1,7 +1,7 @@
 const hostname = 'http://www.yourhost.de';
 
 chrome.runtime.onMessage.addListener((folderId) => {
-    hostname = hostname + "/api/v1/tasks";
+    hostname = hostname + "/api/v1/jobs";
 
     fetch(hostname, {
         method: 'POST',
