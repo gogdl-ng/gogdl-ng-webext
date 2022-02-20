@@ -1,9 +1,7 @@
-let hostname = 'http://192.168.178.2:3200';
+const api = 'http://192.168.178.2:3200/api/v1/jobs';
 
 chrome.runtime.onMessage.addListener((folderId) => {
-    hostname = hostname + "/api/v1/jobs";
-
-    fetch(hostname, {
+    fetch(api, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
