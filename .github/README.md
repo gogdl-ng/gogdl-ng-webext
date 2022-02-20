@@ -19,10 +19,10 @@ This extension injects a button to the Google Drive WebUI. When clicking on it t
 
 ### Firefox
 1. Open the `background.js` file.
-2. Replace the value of the hostname variable on line 1 with your own.
+2. Modify the value of the `api` variable on line 1 and add the address of your gogdl-ng instance.
 3. Follow [this](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/) tutorial.
 
 ### Chrome
 1. Open the `background.js` file.
-2. Replace the value of the hostname variable on line 1 with your own.
+2. Modify the value of the `api` variable on line 1 and add the address of your gogdl-ng instance.
 3. Follow [this](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked) tutorial.
