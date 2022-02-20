@@ -1,4 +1,4 @@
-const hostname = 'http://www.yourhost.de';
+let hostname = 'http://192.168.178.2:3200';
 
 chrome.runtime.onMessage.addListener((folderId) => {
     hostname = hostname + "/api/v1/jobs";
