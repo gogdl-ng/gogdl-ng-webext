@@ -19,7 +19,11 @@
             "matches": [
                 "*://drive.google.com/*"
             ],
+            "css": [
+                "https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css"
+            ],
             "js": [
+                "https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js",
                 "drive_extension.js"
             ]
         }
